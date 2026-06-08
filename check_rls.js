@@ -16,7 +16,7 @@ async function runSQL() {
       `
     })
   });
-  
+
   if (!res.ok) {
     console.error("Management API failed:", res.status, await res.text());
   } else {
